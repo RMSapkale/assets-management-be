@@ -5,34 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ee7ed8a-83ab-4019-aeec-f812b80975dc" name="Changes" comment="project set-up">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/AssetManagementApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/controller/AssetsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/controller/DeptController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/controller/EmployeeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/controller/HrController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/model/AssetsModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/model/DeptModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/model/EmployeeModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/model/HrModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/repository/AssetsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/repository/DeptRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/repository/EmployeeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/repository/HrRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/service/AssetsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/service/DeptService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/service/EmployeeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/java/com/example/Asset/Management/service/HrService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset-Management/src/test/java/com/example/Asset/Management/AssetManagementApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/AssetsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/AssetsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/HrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/HrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/AssetsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/AssetsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/DeptModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/DeptModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/EmployeeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/EmployeeModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/HrModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/HrModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/HrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/HrService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AssetManagementApplication.executor": "Run",
+    "Application.Run.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "abhijit__dev",
