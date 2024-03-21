@@ -3,6 +3,7 @@ package com.example.Asset.Management.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @Getter
@@ -19,7 +20,10 @@ public class HrModel {
     private Long id;
     private String username;
     private String password;
-    private Date lastupdatedate;
-    private Date createdate;
-    private Long empid;
+    private LocalDateTime lastUpdateDate;
+    private LocalDateTime createDate;
+    private String email;
+    private String fullName;
+    private String gender;
+    private Long phoneNo;
 }

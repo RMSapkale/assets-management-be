@@ -24,6 +24,7 @@ public class AssetsController {
 {
     return assetsService.getAllAssets();
 }
+
 @PutMapping("/{id}")
     public String assetsUpdate(@PathVariable Long id,@RequestBody AssetsModel assetsModel)
 {

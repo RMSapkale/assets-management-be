@@ -3,26 +3,32 @@ package com.example.Asset.Management.controller;
 import com.example.Asset.Management.model.HrModel;
 import com.example.Asset.Management.service.HrService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.web.bind.annotation.*;
-
-import java.net.PasswordAuthentication;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/hrLogin")
-public class HrController
-{
+public class HrController {
     @Autowired
     private HrService hrService;
 
-
-
-
-
-    @PostMapping("/saveLoginDetails")
-    public String saveLoginDetails(@RequestBody HrModel hrModel)
+    @PostMapping("/user_registration")
+    public String user_registration(@RequestBody HrModel hrModel)
     {
-        return hrService.savelogin(hrModel);
+        if (hrModel.getUsername() == null && hrModel.getPassword() == null &&
+                hrModel.getUsername().isBlank() &&
+                hrModel.getPassword().isBlank())
+
+        {
+            return "pleased filled the valid details";
+        }
+        else
+        {
+               return hrService.user_registration(hrModel);
+        }
+
     }
 
 //@GetMapping("/getDetailsById")

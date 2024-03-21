@@ -23,4 +23,6 @@ public class EmployeeModel {
     private Long phoneNo;
     private Date hireDate;
     private Long assetId;
+    private Date lastupdatedate;
+    private Date createdate;
 }
