@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import jakarta.persistence.GenerationType;
 import lombok.*;
 
+import java.util.Date;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -15,4 +17,6 @@ public class DeptModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long deptId;
     private String deptName;
+    private Date lastupdatedate;
+    private Date createdate;
 }
