@@ -18,9 +18,8 @@ public class DeptController {
     @Autowired
     private DeptService deptService;
 
-    @PostMapping("/savedept")
-            public String savedept(@RequestBody List<DeptModel> deptModel)
-    {
-        return deptService.savedept(deptModel);
+    @PostMapping("/saveDepartment")
+    public String saveDepartment(@RequestBody List<DeptModel> deptModel) {
+        return deptService.saveDepartment(deptModel);
     }
 }

@@ -1,8 +1,12 @@
 package com.example.Asset.Management.model;
 
-import lombok.*;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @Getter
@@ -19,10 +23,14 @@ public class EmployeeModel {
     private String empName;
     private String empDesignation;
     private Long deptId;
-    private String mailId;
+    private String emailId;
+    private String password;
     private Long phoneNo;
     private Date hireDate;
     private Long assetId;
-    private Date lastupdatedate;
-    private Date createdate;
+    private String LastUpdatedBy;
+    private LocalDateTime lastUpdateDate;
+    private String createdBy;
+    private LocalDateTime createDate;
+    private String programName;
 }

@@ -5,20 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ee7ed8a-83ab-4019-aeec-f812b80975dc" name="Changes" comment="project set-up">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/Dto/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/SupplierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/SupplierModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/repository/SupplierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/SupplierService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/AssetsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/AssetsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/HrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/HrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/HrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/AssetsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/AssetsModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/DeptModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/DeptModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/EmployeeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/EmployeeModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/HrModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/model/HrModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/HrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/HrService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/repository/AssetsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/repository/AssetsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/repository/DeptRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/repository/DeptRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/repository/HrRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/repository/HrRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/AssetsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/AssetsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/DeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Asset/Management/service/HrService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +60,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2dwmaCYvlGLV7Ms79vqtj1yCbya" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

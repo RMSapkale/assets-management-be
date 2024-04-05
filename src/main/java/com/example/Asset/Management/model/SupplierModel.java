@@ -1,10 +1,8 @@
 package com.example.Asset.Management.model;
 
+import com.example.Asset.Management.repository.SupplierRepository;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
@@ -13,24 +11,22 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "hrLogin")
+@Table(name="Supplier")
 
-public class HrModel {
-
+public class SupplierModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String userName;
-    private String password;
-    private String LastUpdatedBy;
+    private String supplierName;
+    private String supplierAddress;
+    private String lastUpdatedBy;
     private LocalDateTime lastUpdateDate;
     private String createdBy;
     private LocalDateTime createDate;
     private String programName;
-    private String email;
-    private String fullName;
-    private String gender;
-    private Long phoneNo;
 
-
+//    public String saveAllSupplier(SupplierModel supplierModel) {
+//        SupplierModel model= SupplierRepository.find
+//    }
 }
+

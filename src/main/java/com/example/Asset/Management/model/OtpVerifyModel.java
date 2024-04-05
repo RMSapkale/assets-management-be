@@ -13,24 +13,19 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "hrLogin")
+@Table(name = "verifyOtp")
 
-public class HrModel {
-
+public class OtpVerifyModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String userName;
-    private String password;
+    private String emailId;
+    private int otp;
     private String LastUpdatedBy;
     private LocalDateTime lastUpdateDate;
     private String createdBy;
     private LocalDateTime createDate;
     private String programName;
-    private String email;
-    private String fullName;
-    private String gender;
-    private Long phoneNo;
 
 
 }

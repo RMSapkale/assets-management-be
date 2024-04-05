@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 public interface EmployeeRepository extends JpaRepository<EmployeeModel, Long>
 {
 
-    EmployeeModel findByMailIdAndPhoneNo(String mailId, Long phoneNo);
+    EmployeeModel findByEmailIdAndPhoneNo(String mailId, Long phoneNo);
 }

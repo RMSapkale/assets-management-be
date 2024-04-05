@@ -1,16 +1,19 @@
 package com.example.Asset.Management.model;
 
-import lombok.*;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name="assets")
+@Table(name = "assets")
 public class AssetsModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,6 +21,9 @@ public class AssetsModel {
     private String assetName;
     private String assetModel;
     private Long assetQuantity;
-    private Date lastupdatedate;
-    private Date createdate;
+    private String lastUpdatedBy;
+    private LocalDateTime lastUpdateDate;
+    private String createdBy;
+    private LocalDateTime createDate;
+    private String programName;
 }

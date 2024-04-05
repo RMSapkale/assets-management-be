@@ -7,30 +7,32 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
-@Table(name = "hrLogin")
-
-public class HrModel {
+@Table(name = "AssignAssetsToEmployee")
+public class AssignAssetsToEmployeeModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String userName;
-    private String password;
+
+    @ManyToOne
+    @JoinColumn(name = "assetsId")
+    private AssetsModel assetsModel;
+
+    @ManyToOne
+    @JoinColumn(name = "employeeId")
+    private EmployeeModel employeeModel;
+
+    private Date assignDate;
     private String LastUpdatedBy;
     private LocalDateTime lastUpdateDate;
     private String createdBy;
     private LocalDateTime createDate;
     private String programName;
-    private String email;
-    private String fullName;
-    private String gender;
-    private Long phoneNo;
-
-
 }
